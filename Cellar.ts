@@ -43,4 +43,3 @@ console.log(c.bottles[0].name,c.bottles[0].price);
 console.log(c.getBottle("Bonjour"));
 console.log(c.getBottle("Coucou"));
 console.log(c.getTotalPrice());
-
