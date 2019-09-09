@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d286a677-6d7c-404d-a836-6b4a36bd2772" name="Default Changelist" comment="" />
+    <list default="true" id="d286a677-6d7c-404d-a836-6b4a36bd2772" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Cellar.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cellar.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cellar.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +62,8 @@
       <option name="presentableId" value="Default" />
       <updated>1568037274088</updated>
       <workItem from="1568037275322" duration="5600000" />
+      <workItem from="1568049790457" duration="846000" />
+      <workItem from="1568050680955" duration="365000" />
     </task>
     <servers />
   </component>
@@ -65,6 +71,7 @@
     <option name="version" value="1" />
     <option name="exactExcludedFiles">
       <list>
+        <option value="$PROJECT_DIR$/Cellar.js" />
         <option value="$PROJECT_DIR$/Cellar.js" />
       </list>
     </option>
@@ -74,7 +81,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

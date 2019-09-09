@@ -1,35 +1,38 @@
-var Cellar = /** @class */ (function () {
-    function Cellar() {
-        this.bottles = [];
-    }
-    Cellar.prototype.addBottle = function (name, price) {
-        var b = { name: name, price: price };
+interface  Bottle {
+    name: string;
+    price: number;
+}
+
+class Cellar {
+
+    bottles: Bottle[] = [];
+
+    addBottle(name: string, price: number): void {
+        var b = {name: name, price: price};
         this.bottles.length++;
         this.bottles[this.bottles.length - 1] = b;
     };
-    ;
-    Cellar.prototype.getBottle = function (name) {
+
+    getBottle(name: string) {
         var i = 0;
         while (i < this.bottles.length) {
             if (this.bottles[i].name === name) {
                 return [this.bottles[i].name, this.bottles[i].price];
-            }
-            else
+            } else
                 i++;
         }
         return "Not found";
     };
-    ;
-    Cellar.prototype.getTotalPrice = function () {
+
+    getTotalPrice(): number {
         var sum = 0;
         for (var i = 0; i < this.bottles.length; i++) {
             sum = sum + this.bottles[i].price;
         }
         return sum;
     };
-    ;
-    return Cellar;
-}());
+
+}
 var c = new Cellar();
 c.addBottle("Bonjour", 120000);
 c.addBottle("Bonsoir", 100000);
